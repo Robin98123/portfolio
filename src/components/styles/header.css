@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+.header_container{
+    padding-top: 2rem;
+    background-color: black;
+    background-image: url("../../img/banners/decoration_header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_principal{
+    width: 500px;
+}
+
+.Banner_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.hability_list{
+    color: white;
+    transform: perspective(300px) rotateY(-18deg);
+}
+
+.hability_list li{
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    list-style: none;
+    font-size: 55px;
+    text-align: right;
+    
+}
+
+.hability_list li:hover{
+    color: #000;
+    text-shadow: -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff, 2px 2px 0px #fff;
+}
