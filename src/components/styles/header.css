@@ -23,6 +23,7 @@
 .hability_list{
     color: white;
     transform: perspective(300px) rotateY(-18deg);
+    cursor: pointer;
 }
 
 .hability_list li{

@@ -23,11 +23,12 @@ background-color: rgba(255, 255, 255, 0.3);
 }
 
 .navvar_list li{
-    font-family: 'Prompt', sans-serif, regular;
+    font-family: 'Prompt', sans-serif,;
     color: white;
     text-shadow: 3px 2px 2px #000000;
     font-weight: 500;
     list-style: none ;
+    cursor: pointer;
 }
 
 .Logo_container{
@@ -49,5 +50,6 @@ background-color: rgba(255, 255, 255, 0.3);
     width: 6rem;
     border-radius: 50px;
     box-shadow: 1px 9px 14px 0px #000 inset;
+    cursor: pointer;
 
 }

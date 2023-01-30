@@ -12,7 +12,6 @@ export default function NavVar (){
             <li>About us</li>
             <li>Our service</li>
             <li>Portfolio</li>
-            <li>Reviews</li>
         </ul>
 
         <button className="contac_button">Contact</button>
