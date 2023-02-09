@@ -53,3 +53,26 @@ background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
 
 }
+
+@media (min-width:668px) {
+
+    .navvar_listmenu{
+        display: none;
+    }
+}
+
+@media (max-width: 668px) {
+
+    .navvar_listmenu{
+        display: block;
+    }
+
+    .navvar_item{
+        display: none;
+    }
+
+    .contac_button{
+        display: none;
+    }
+}
+
