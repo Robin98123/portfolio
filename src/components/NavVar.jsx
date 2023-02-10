@@ -11,12 +11,12 @@ export default function NavVar (){
         </div>
         <ul className="navvar_list">
             <li className="navvar_listmenu"><img src={menu_img}/></li>
-            <li className="navvar_item">About us</li>
+            <a href="https://drive.google.com/file/d/1uxDBkuyM3YVSKdXM7ceyQlJpIMTf0ym5/view?usp=sharing" target="_blank"><li className="navvar_item">About us</li></a>
             <li className="navvar_item">Our service</li>
             <li className="navvar_item">Portfolio</li>
         </ul>
 
-        <button className="contac_button">Contact</button>
+        <a href="https://linktr.ee/rtagcontact" target="_blank"><button className="contac_button">Contact</button></a>
         </div>
     )
 };

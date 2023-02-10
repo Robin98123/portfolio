@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap');
+
+.background-footer2{
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),  url("../../img/banners/banner-prefooter.png");
+    width: 100vw;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 3rem;
+    
+}
+
+.container_mensage{
+    -webkit-backdrop-filter:blur(7px);
+    backdrop-filter:blur(7px);
+    background:linear-gradient(0deg, rgba(29,29,29,0) 0%, rgba(84,84,84,1) 94%);
+    max-width: 1500px;
+    border-radius: 30px;
+    margin: 0% auto;
+    margin-top: 3rem;
+    
+
+}
+
+.container_mensage h1{
+    font-family: 'Prompt', sans-serif,;
+    color: white;
+    font-weight: 400;
+    padding: 3rem;
+    text-shadow: 2px 2px 0px #ff8000;
+    
+}
+
+.container_round{
+    position: absolute;
+    top: -60px;
+    right: 20px;
+    animation-duration: 20s;
+    animation-name: rotateportfolio2;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes rotateportfolio2 {
+    from {
+        rotate: 360deg;
+    }
+}
+
+.round_icon img{
+    width: 150px;
+}
+
+.button_container button{
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer_container{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_container h1{
+    font-family: 'Prompt', sans-serif,;
+    color: white;
+    font-weight: 400;
+    padding: 3rem;
+    text-shadow: 2px 2px 0px #ff8000;
+}
+
+@media (max-width: 652px) {
+    .footer_container{
+        margin-top: 12rem;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 780px) {
+    .container_mensage h1{
+        padding-top: 12rem;    
+    }
+
+    .footer_container{
+        margin-top: 12rem;
+    }
+}
+
+

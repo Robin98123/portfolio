@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Biography from "./components/Biography";
 import Skills from "./components/skills"
 import Portfolio from "./components/Portfolio";
+import SecondBanner from "./components/SecondBanner";
+import Footer from "./components/Footer";
 import "./App.css"
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
   <Skills/>
   </div>
   <Portfolio/>
+  <SecondBanner/>
+  <Footer/>
   </div>
   );
 }
