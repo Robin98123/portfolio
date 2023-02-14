@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.hability_list a{
+    text-decoration: none;
+}
+
 .hability_list li{
     font-family: 'Bowlby One SC', cursive;
     color: white;

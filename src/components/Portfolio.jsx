@@ -15,8 +15,8 @@ import "./styles/biography.css"
 
 export default function Portfolio (){
     return(
-        <div className="background">
-        <div className="container_portfolio">
+        <div className="background" >
+        <div className="container_portfolio" id="portfolio">
         
             <div className="background_black">
                     <div className="buttons_port">

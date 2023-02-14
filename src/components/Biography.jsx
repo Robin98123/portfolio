@@ -4,7 +4,7 @@ import "./styles/biography.css"
 
 export default function Biography (){
     return(
-        <div className="main_photo">
+        <div className="main_photo" id="ourservice">
             <img src={Photo_main} alt="foto main"/>
             <div className="information_main">
                 <h1>Hello!, <br/>

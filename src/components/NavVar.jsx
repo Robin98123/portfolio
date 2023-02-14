@@ -11,9 +11,9 @@ export default function NavVar (){
         </div>
         <ul className="navvar_list">
             <li className="navvar_listmenu"><img src={menu_img}/></li>
-            <a href="https://drive.google.com/file/d/1uxDBkuyM3YVSKdXM7ceyQlJpIMTf0ym5/view?usp=sharing" target="_blank"><li className="navvar_item">About us</li></a>
-            <li className="navvar_item">Our service</li>
-            <li className="navvar_item">Portfolio</li>
+            <a href="https://drive.google.com/file/d/1uxDBkuyM3YVSKdXM7ceyQlJpIMTf0ym5/view?usp=sharing" target="_blank" className="navvar_item"><li >About us</li></a>
+            <li className="navvar_item"><a href="#ourservice">Our service</a></li>
+            <li className="navvar_item"><a href="#portfolio">Portfolio</a></li>
         </ul>
 
         <a href="https://linktr.ee/rtagcontact" target="_blank"><button className="contac_button">Contact</button></a>

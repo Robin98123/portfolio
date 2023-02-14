@@ -22,13 +22,17 @@ background-color: rgba(255, 255, 255, 0.3);
     gap: 2rem;
 }
 
-.navvar_list li{
+.navvar_list a{
     font-family: 'Prompt', sans-serif,;
     color: white;
     text-shadow: 3px 2px 2px #000000;
     font-weight: 500;
-    list-style: none ;
+    text-decoration: none;
     cursor: pointer;
+}
+
+.navvar_list li{
+    list-style: none;
 }
 
 .Logo_container{
