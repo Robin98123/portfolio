@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*colors*/
+
+$VioletaPrincipal: #6D69FE;
+$GrisBordes: #EAEAEA;
+$Gris: #9A9A9A;
+$GrisParrafos: #9A9A9A;
+$GrisClaro: #ADADAD;
+$AzulRey: #1A3EAE;
+$AzulOscuro: #0F0D64;
+$blanco: white;
+
+/*fuentes*/
+
+$TitulosFamily: 'Exo', sans-serif;
+$ParrafosFamily: 'Montserrat', sans-serif;
+
+$TitulosWeith: 700;
+$ParrafosWeithRegular: 400;
+$ParrafosWeithMedium: 500;
+$ParrafosWeithSemibold: 600;
+
+$h2: 25px;
+$h1: 42px;
+$b: 30px;
+$bRes: 23px;
+$h2Res: 20px;
+$h1Res: 25px;
+$fontptParrafo: 15px;
+$fontptButton: 16px;
+$fontptParrafoRes: 12px;
+$fontptButtonRes: 15px;
+
+
+.hero_container{
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.info-hero{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .tittle-container{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: normal;
+    }
+
+    h2{
+        font-family: $ParrafosFamily;
+        font-weight: $ParrafosWeithRegular;
+        font-size: $h2;
+        color: $AzulRey;
+
+        b{
+            font-weight: $ParrafosWeithSemibold;
+            font-size: $b;
+        }
+
+        span{
+            width: 4px;
+            background-color: $VioletaPrincipal;
+            color: $VioletaPrincipal;
+            border-radius: 50px;
+            margin-right: 0.5rem;
+        }
+    }
+
+    h1{
+        font-family: $TitulosFamily;
+        font-weight: 700;
+        font-size: $h1;
+        color: $AzulOscuro;
+    }
+
+    p{
+        font-family: $ParrafosFamily;
+        font-weight: $ParrafosWeithMedium;
+        color: $Gris;
+        font-size: $fontptParrafo;
+    }
+
+    a{
+        max-width: 350px;
+        text-decoration: none;
+        height: 40px;
+        border: none;
+        border-radius: 20px 50px 50px 50px;
+        color: $VioletaPrincipal;
+        font-family: $TitulosFamily;
+        font-weight: $ParrafosWeithRegular;
+        border: 2px solid $GrisBordes;
+        background-color: $blanco;
+        cursor: pointer;
+        font-size: $fontptButton;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+            background-color: $VioletaPrincipal;
+            color: $blanco;
+        }
+
+
+        span{
+            color: $blanco;
+            font-size: 11px;
+            background-color: $VioletaPrincipal;
+            padding: 0.5rem;
+            border-radius: 50px;
+
+            &:hover{
+                background-color: $blanco;
+                color: $VioletaPrincipal;
+            }
+        }
+    }
+}
+
+
+.animation-container{
+    width: 50%;
+}
+
+@media (min-width: 1515px) {
+    .animation-container{
+        width: 40%;
+    }
+
+    .info-hero{
+        width: 40%;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 780px)  {
+
+    .hero_container{
+
+        flex-direction: column;
+        padding: 1rem 1rem;
+    
+    .animation-container{
+        order: 1;
+        width: 90%;
+    }
+    .info-hero{
+        order: 2;
+        padding: 1rem;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            font-size: $h2Res;
+
+            b{
+                font-size: $bRes;
+            }
+        }
+
+        h1{
+            font-size: $h1Res;
+        }
+
+        p{
+            font-size: $fontptParrafoRes;
+        }
+
+        button{
+            font-size: $fontptButtonRes;
+        }
+    }
+
+}
+}

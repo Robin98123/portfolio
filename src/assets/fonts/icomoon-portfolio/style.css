@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?zdek96');
+  src:  url('fonts/icomoon.eot?zdek96#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?zdek96') format('truetype'),
+    url('fonts/icomoon.woff?zdek96') format('woff'),
+    url('fonts/icomoon.svg?zdek96#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-th-list:before {
+  content: "\f00b";
+}
+.icon-row:before {
+  content: "\e91b";
+}
+.icon-behance:before {
+  content: "\e900";
+}
+.icon-linkedin:before {
+  content: "\e901";
+}
+.icon-figma-talwind:before {
+  content: "\e902";
+}
+.icon-Bootstrap-sass:before {
+  content: "\e903";
+}
+.icon-React:before {
+  content: "\e904";
+}
+.icon-confianza:before {
+  content: "\e905";
+}
+.icon-ExperienciaUsuario:before {
+  content: "\e906";
+}
+.icon-SEO:before {
+  content: "\e907";
+}
+.icon-imagen:before {
+  content: "\e908";
+}
+.icon-eficiencia:before {
+  content: "\e909";
+}
+.icon-satisfaccion:before {
+  content: "\e90a";
+}
+.icon-ventas:before {
+  content: "\e90b";
+}
+.icon-reduccion-costos:before {
+  content: "\e90c";
+}
+.icon-solucion-rapida:before {
+  content: "\e90d";
+}
+.icon-tiempo-desarrollo:before {
+  content: "\e90e";
+}
+.icon-optimizacion-pantallas:before {
+  content: "\e90f";
+}
+.icon-seguridad:before {
+  content: "\e910";
+}
+.icon-escalabilidad:before {
+  content: "\e911";
+}
+.icon-seo-ajustado:before {
+  content: "\e912";
+}
+.icon-experiencia-usuario:before {
+  content: "\e913";
+}
+.icon-100medida:before {
+  content: "\e914";
+}
+.icon-codigo-limpio:before {
+  content: "\e915";
+}
+.icon-github:before {
+  content: "\e916";
+}
+.icon-flecha:before {
+  content: "\e917";
+}
+.icon-adobe:before {
+  content: "\e918";
+}
+.icon-html:before {
+  content: "\e919";
+}
+.icon-wordpress:before {
+  content: "\e91a";
+}

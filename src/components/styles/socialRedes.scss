@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*colors*/
+
+$VioletaPrincipal: #6D69FE;
+$GrisBordes: #EAEAEA;
+$Gris: #9A9A9A;
+$GrisParrafos: #9A9A9A;
+$GrisClaro: #ADADAD;
+$AzulRey: #1A3EAE;
+$AzulOscuro: #0F0D64;
+$blanco: white;
+
+.redes-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0.5rem ;
+    bottom: 35px;
+    left: -3px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: $blanco;
+    border: 2px solid $VioletaPrincipal;
+    border-radius: 0px 50px 50px;
+    z-index: 13;
+
+    a{
+
+    text-decoration: none;
+
+    span{
+        color: $VioletaPrincipal;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    span:hover{
+        color: $AzulRey;
+    }
+
+    }
+}
+
+@media (max-width: 780px){
+
+    .redes-container{
+
+    
+    span{
+        font-size: 15px;
+    }
+
+    }
+}

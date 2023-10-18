@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*colors*/
+
+$VioletaPrincipal: #6D69FE;
+$GrisBordes: #EAEAEA;
+$Gris: #9A9A9A;
+$GrisParrafos: #9A9A9A;
+$GrisClaro: #ADADAD;
+$AzulRey: #1A3EAE;
+$AzulOscuro: #0F0D64;
+$blanco: white;
+
+/*fuentes*/
+
+$TitulosFamily: 'Exo', sans-serif;
+$ParrafosFamily: 'Montserrat', sans-serif;
+
+$TitulosWeith: 700;
+$ParrafosWeithRegular: 400;
+$ParrafosWeithMedium: 500;
+$ParrafosWeithSemibold: 600;
+
+$h2: 25px;
+$h1: 42px;
+$b: 30px;
+$bRes: 23px;
+$h2Res: 20px;
+$h1Res: 25px;
+$fontptParrafo: 15px;
+$fontptButton: 16px;
+$fontptParrafoRes: 12px;
+$fontptButtonRes: 15px;
+
+.footer_container{
+    background-color: $VioletaPrincipal;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+
+    img{
+        max-width: 70px;
+        padding-bottom: 2rem;
+    }
+
+    p{
+        font-size: $fontptParrafoRes;
+        color: $blanco;
+    }
+
+    .links-info-contain{
+        display: flex;
+        gap: 2rem;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            h3{
+                font-family: $TitulosFamily;
+                color: $blanco;
+                font-size: $fontptParrafoRes;
+            }
+
+            a{
+                text-decoration: none;
+                color: $blanco;
+                font-family: $ParrafosFamily;
+                font-size: $fontptParrafo;
+                display: flex;
+                align-items: center;
+                gap: 0.3rem;
+
+                span{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .footer_container{
+        flex-direction: column;
+
+        .logo-footer-contain{
+            order: 2;
+        }
+
+        .links-info-contain{
+            justify-content: center;
+            align-items: center;
+            order: 1;
+            margin-bottom: 2rem;
+        }
+    }
+    
+}

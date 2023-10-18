@@ -1,0 +1,368 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*colors*/
+
+$VioletaPrincipal: #6D69FE;
+$GrisBordes: #EAEAEA;
+$Gris: #9A9A9A;
+$GrisParrafos: #9A9A9A;
+$GrisClaro: #ADADAD;
+$AzulRey: #1A3EAE;
+$AzulOscuro: #0F0D64;
+$blanco: white;
+
+/*fuentes*/
+
+$TitulosFamily: 'Exo', sans-serif;
+$ParrafosFamily: 'Montserrat', sans-serif;
+
+$TitulosWeith: 700;
+$ParrafosWeithRegular: 400;
+$ParrafosWeithMedium: 500;
+$ParrafosWeithSemibold: 600;
+
+$h2: 25px;
+$h1: 42px;
+$b: 30px;
+$bRes: 23px;
+$h2Res: 20px;
+$h1Res: 25px;
+$fontptParrafo: 15px;
+$fontptButton: 16px;
+$fontptParrafoRes: 12px;
+$fontptButtonRes: 15px;
+
+.grid-galery{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    
+
+    .image1{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/wT6pyF9J/proyecto-1.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  1;
+        grid-column-end:  3;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+
+    .image2{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/WbnftQ2c/proyecto-2.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  3;
+        grid-column-end:  5;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+
+    .image3{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/9FVnmWHB/proyecto-3.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  5;
+        grid-column-end:  7;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+
+    .image4{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/xC6hhhc2/proyecto-4.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  1;
+        grid-column-end:  4;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+
+    .image5{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/QCm84hTJ/proyecto-5.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  4;
+        grid-column-end:  7;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+
+    .image6{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/wMgxQ77B/proyecto-6.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  1;
+        grid-column-end:  3;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+
+    .image7{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/4dzNcz4M/proyecto-7.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  3;
+        grid-column-end:  5;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+
+    .image8{
+        width: 100%;
+        height: 350px;
+        background-image: url('https://i.postimg.cc/ydq8WfKc/proyecto-8.jpg');
+        background-size : cover;
+        background-position: center;
+        grid-column-start:  5;
+        grid-column-end:  7;
+
+        .background-container{
+            display: none;
+        }
+
+        &:hover{
+            .background-container{
+                display: block;
+            }
+        }
+    }
+}
+
+.background-container{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 2rem;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    .background{
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem;
+
+        h1{
+            font-family: $TitulosFamily;
+            color: $blanco;
+            font-size: $h2;
+        }
+
+        p{
+            font-family: $ParrafosFamily;
+            color: $blanco;
+            font-size: $fontptParrafo;
+        }
+
+        .btn-visitarsitio{
+            text-decoration: none;
+            width: 50%;
+            height: 40px;
+            border: none;
+            border-radius: 50px;
+            color: $VioletaPrincipal;
+            font-family: $TitulosFamily;
+            font-weight: $ParrafosWeithRegular;
+            border: 2px solid $GrisBordes;
+            background-color: $blanco;
+            cursor: pointer;
+            font-size: $fontptButton;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem 1rem;
+
+            &:hover{
+                background-color: $VioletaPrincipal;
+                color: $blanco;
+                border: none;
+            }
+
+            div{
+                span{
+                    color: $blanco;
+                }
+            }
+        }
+
+        .links-deploy-container{
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            width: 100%;
+        
+        .links-deploy{
+            background-color: #4c4c4c;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.7rem 0rem;
+            border-radius: 50px;
+
+            a{
+                text-decoration: none;
+            }
+        
+            span{
+                color: $blanco;
+                font-size: 20px;
+            }
+        
+            .icon-behance{
+                border-right: 2px solid $VioletaPrincipal;
+                margin-right: 1rem;
+                padding-right: 1rem;
+            }
+        }
+        }
+    }
+}
+
+@media (max-width: 1000px)  {
+    .grid-galery{
+        grid-template-columns: repeat(2, 1fr);
+
+        .image1{
+            height: 300px;
+            grid-column-start:  1;
+            grid-column-end:  2;
+        }
+        .image2{
+            height: 300px;
+            grid-column-start:  2;
+            grid-column-end:  2;
+        }
+        .image3{
+            height: 300px;
+            grid-column-start:  1;
+            grid-column-end:  3;
+        }
+
+        .image4{
+            height: 300px;
+            grid-column-start:  1;
+            grid-column-end:  2;
+        }
+
+        .image5{
+            height: 300px;
+            grid-column-start:  2;
+            grid-column-end:  3;
+        }
+
+        .image6{
+            height: 300px;
+            grid-column-start:  1;
+            grid-column-end:  3;
+        }
+
+        .image7{
+            height: 300px;
+            grid-column-start:  1;
+            grid-column-end:  2;
+        }
+
+        .image8{
+            height: 300px;
+            grid-column-start:  2;
+            grid-column-end:  3;
+        }
+    }
+}
+
+
+@media (max-width: 600px)  {
+    .grid-galery{
+        grid-template-columns: repeat(1, 1fr);
+
+        .image1, .image2, .image3, .image4, .image5, .image6, .image7, img{
+            height: 300px;
+            grid-column-start:  1;
+            grid-column-end:  1;
+        }
+    }
+}
