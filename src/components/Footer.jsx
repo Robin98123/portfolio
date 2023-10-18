@@ -14,7 +14,7 @@ export default function (){
             <div className="links-info-contain">
                 <div>
                     <h3>Contenido</h3>
-                    <a href="#Galery">Mi trabajo</a>
+                    <a href="#Galery">Mi trabajo.</a>
                     <a href="https://linktr.ee/rtagcontact" target="blank">Info</a>
                 </div>
                 <div>
