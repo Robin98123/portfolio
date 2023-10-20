@@ -278,6 +278,7 @@ $fontptButtonRes: 15px;
             background-color: #4c4c4c;
             width: 50%;
             display: flex;
+            gap: 2rem;
             justify-content: center;
             align-items: center;
             padding: 0.7rem 0rem;
@@ -286,17 +287,14 @@ $fontptButtonRes: 15px;
             a{
                 text-decoration: none;
             }
+
         
             span{
                 color: $blanco;
                 font-size: 20px;
             }
-        
-            .icon-behance{
-                border-right: 2px solid $VioletaPrincipal;
-                margin-right: 1rem;
-                padding-right: 1rem;
-            }
+
+            
         }
         }
     }
