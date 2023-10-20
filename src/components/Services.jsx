@@ -250,6 +250,9 @@ const Services = () => {
                         <form action="https://formsubmit.co/robinson_rincon1998@hotmail.com" method="POST"> 
                             <input type="email" placeholder='Ingresa tu email' className='input'/>
                             <input type="submit" className='submit' value="Quiero contactar"/>
+
+                            <input type="hidden" name="_next" value="https://rtagweb.vercel.app/"/>
+                            <input type="hidden" name="_captcha" value="false"/>
                         </form>
                     </div>
 
