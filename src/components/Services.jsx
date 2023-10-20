@@ -247,9 +247,9 @@ const Services = () => {
                     <div className='inputut-info'>
                         <h2>¡Creemos algo nuevo juntos!</h2>
                         <p>Hagamos algo nuevo, creativo,  diferente  y significativo.<br/>  Podemos impulsar y generar trafico</p>
-                        <form action=""> 
+                        <form action="https://formsubmit.co/robinson_rincon1998@hotmail.com" method="POST"> 
                             <input type="email" placeholder='Ingresa tu email' className='input'/>
-                            <input type="submit" className='submit'/>
+                            <input type="submit" className='submit' value="Quiero contactar"/>
                         </form>
                     </div>
 
