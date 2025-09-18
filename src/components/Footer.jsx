@@ -20,7 +20,7 @@ export default function (){
                 <div>
                     <h3>Contacto</h3>
                     <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="blank">Linkedin<span className="icon-flecha"></span></a>
-                    <a href="https://drive.google.com/file/d/1uxDBkuyM3YVSKdXM7ceyQlJpIMTf0ym5/view" target="blank">CV<span className="icon-flecha"></span></a>
+                    <a href="https://drive.google.com/file/d/1VPWutphHoqDaL98xdioI6GAGHNoxX4Zf/view?usp=sharing" target="blank">CV<span className="icon-flecha"></span></a>
                 </div>
             </div>
         </div>
