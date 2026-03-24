@@ -4,30 +4,6 @@ import '../assets/fonts/icomoon-portfolio/style.css'
 
 const Services = () => {
 
-    const[desplegable1, setdesplegable1] = useState(true);
-
-    const toggledesplegable1 = () => {
-        setdesplegable1 (!desplegable1 )
-    }
-
-    const[desplegable2, setdesplegable2] = useState(true);
-
-    const toggledesplegable2 = () => {
-        setdesplegable2 (!desplegable2 )
-    }
-
-    const[desplegable3, setdesplegable3] = useState(true);
-
-    const toggledesplegable3 = () => {
-        setdesplegable3 (!desplegable3 )
-    }
-
-    const[desplegable4, setdesplegable4] = useState(true);
-
-    const toggledesplegable4 = () => {
-        setdesplegable4 (!desplegable4 )
-    }
-
   return (
 
     <>

@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import './styles/spotlighcard.scss';
 import "../assets/fonts/icomoon-portfolio/style.css";
-import habilidadesdata from '../data/habilidades.json';
 
 const Servicard = ({ children, className = '', spotlightColor = 'rgba(255, 255, 255, 0.25)' }) => {
   const divRef = useRef(null);
