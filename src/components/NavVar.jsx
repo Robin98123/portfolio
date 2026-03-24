@@ -19,7 +19,7 @@ export default function NavVar (){
             </div>
 
             <div className="navvar">
-                <a href="#Galery">
+                <a href="#Proyects">
                     <button>Mi trabajo</button>
                 </a>
                 <a href="https://linktr.ee/rtagcontact" target="_blank" rel="noreferrer">

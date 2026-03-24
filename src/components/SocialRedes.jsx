@@ -4,10 +4,10 @@ import './styles/socialRedes.scss'
 
 const SocialRedes = () => {
   return (
-    <div className='redes-container'>
-        <a href='https://www.linkedin.com/in/robinson-bernal-55b897ba/' target='blank'><span className='icon-linkedin'></span></a>
-        <a href='https://www.behance.net/ryrinconmultimedia' target='blank'><span className='icon-behance'></span></a>
-        <a href='https://github.com/Robin98123' target='blank'><span className='icon-github'></span></a>
+    <div className='redes-container'>         
+<a href="https://api.whatsapp.com/send?phone=573002891319&text=Hola, vi tu portafolio y me gustaria obtener mas información" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float "></i>
+</a>
     </div>
   )
 }

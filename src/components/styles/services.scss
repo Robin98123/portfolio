@@ -160,44 +160,6 @@ $fontptButtonRes: 15px;
 }
 
 
-.grid-habilities{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 3rem;
-    gap: 2rem;
-
-
-    .habilitie-cont{
-        padding: 2rem;
-        background-color: $GrisBordes;
-        border-radius: 24px;
-
-        div{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1rem;
-
-            h2{
-                font-family: $TitulosFamily;
-                font-size: $h2Res;
-                color: $AzulOscuro;
-            }
-        }
-
-        p{
-            font-size: $ParrafosFamily;
-            font-family: $ParrafosFamily;
-            text-align: center;
-        }
-
-        span{
-            color: $VioletaPrincipal;
-            font-size: 30px;
-        }
-    }
-}
 
 .contact-container{
 

@@ -21,7 +21,7 @@ export default function Header (){
                 <div className='tittle-container'>
                     <h2><span>.</span>Hola! soy <b>Robinson Rincon</b></h2>
 
-                    <h1>Diseñadro Gráfico
+                    <h1>Diseñador Gráfico
                     </h1>
                 </div>  
 

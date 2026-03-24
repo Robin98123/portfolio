@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="links-info-contain">
                 <div>
                     <h3>Contenido</h3>
-                    <a href="#Galery">Mi trabajo.</a>
+                    <a href="#Proyects">Mi trabajo.</a>
                     <a href="https://linktr.ee/rtagcontact" target="_blank" rel="noreferrer">Info</a>
                 </div>
                 <div>
@@ -22,7 +22,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="_blank" rel="noreferrer">
                         Linkedin<span className="icon-flecha"></span>
                     </a>
-                    <a href="https://drive.google.com/file/d/1VPWutphHoqDaL98xdioI6GAGHNoxX4Zf/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/1MVTYhuGbODI1jiXM1wAQTL5YtQHmjWus/view?usp=sharing" target="_blank" rel="noreferrer">
                         CV<span className="icon-flecha"></span>
                     </a>
                 </div>
