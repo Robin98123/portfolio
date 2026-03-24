@@ -8,7 +8,7 @@ export default function NavVar (){
     const [menulateral, setmenuLateral] = useState(true);
 
     const togglemenuLateral = () => {
-       setmenuLateral (!menulateral )
+       setmenuLateral(!menulateral)
     }
 
     return(
@@ -19,22 +19,34 @@ export default function NavVar (){
             </div>
 
             <div className="navvar">
-                    <a href="#Galery"><button >Mi trabajo</button></a>
-                    <a href="https://linktr.ee/rtagcontact" target="blank"><button>Info</button></a>
+                <a href="#Galery">
+                    <button>Mi trabajo</button>
+                </a>
+                <a href="https://linktr.ee/rtagcontact" target="_blank" rel="noreferrer">
+                    <button>Info</button>
+                </a>
             </div>
 
             <div className="links">
-                <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="_blank">Linkedin<span class="icon-flecha"></span></a>
-                <a href="https://drive.google.com/file/d/1MVTYhuGbODI1jiXM1wAQTL5YtQHmjWus/view?usp=sharing" target="_blank">CV<span class="icon-flecha"></span></a>
+                <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="_blank" rel="noreferrer">
+                    Linkedin<span className="icon-flecha"></span>
+                </a>
+                <a href="https://drive.google.com/file/d/1MVTYhuGbODI1jiXM1wAQTL5YtQHmjWus/view?usp=sharing" target="_blank" rel="noreferrer">
+                    CV<span className="icon-flecha"></span>
+                </a>
             </div>
 
             <div className='links-responsive'>
-                    <span className="icon-th-list" onClick={togglemenuLateral}></span>
+                <span className="icon-th-list" onClick={togglemenuLateral}></span>
 
-                    <div className={`lateral-menu ${ menulateral ? 'NoisActive' : ''}`}>
-                    <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="_blank">Linkedin<span class="icon-flecha"></span></a>
-                    <a href="https://drive.google.com/file/d/1MVTYhuGbODI1jiXM1wAQTL5YtQHmjWus/view?usp=sharing" target="_blank">CV<span class="icon-flecha"></span></a>
-                    </div>
+                <div className={`lateral-menu ${menulateral ? 'NoisActive' : ''}`}>
+                    <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="_blank" rel="noreferrer">
+                        Linkedin<span className="icon-flecha"></span>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1MVTYhuGbODI1jiXM1wAQTL5YtQHmjWus/view?usp=sharing" target="_blank" rel="noreferrer">
+                        CV<span className="icon-flecha"></span>
+                    </a>
+                </div>
             </div>
 
         </div>
