@@ -2,7 +2,6 @@ import Navar from "./components/NavVar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import SocialRedes from "./components/SocialRedes";
-import Galery from "./components/Galery";
 import Services from "./components/Services";
 import Projects from "./components/Proyects"
 
