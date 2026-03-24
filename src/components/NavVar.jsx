@@ -25,7 +25,7 @@ export default function NavVar (){
 
             <div className="links">
                 <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="_blank">Linkedin<span class="icon-flecha"></span></a>
-                <a href="https://drive.google.com/file/d/1VPWutphHoqDaL98xdioI6GAGHNoxX4Zf/view?usp=sharing" target="_blank">CV<span class="icon-flecha"></span></a>
+                <a href="https://drive.google.com/file/d/1MVTYhuGbODI1jiXM1wAQTL5YtQHmjWus/view?usp=sharing" target="_blank">CV<span class="icon-flecha"></span></a>
             </div>
 
             <div className='links-responsive'>
@@ -33,7 +33,7 @@ export default function NavVar (){
 
                     <div className={`lateral-menu ${ menulateral ? 'NoisActive' : ''}`}>
                     <a href="https://www.linkedin.com/in/robinson-bernal-55b897ba/" target="_blank">Linkedin<span class="icon-flecha"></span></a>
-                    <a href="https://drive.google.com/file/d/1VPWutphHoqDaL98xdioI6GAGHNoxX4Zf/view?usp=sharing" target="_blank">CV<span class="icon-flecha"></span></a>
+                    <a href="https://drive.google.com/file/d/1MVTYhuGbODI1jiXM1wAQTL5YtQHmjWus/view?usp=sharing" target="_blank">CV<span class="icon-flecha"></span></a>
                     </div>
             </div>
 

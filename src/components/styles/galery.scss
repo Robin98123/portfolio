@@ -74,15 +74,18 @@ $fontptButtonRes: 15px;
         grid-column-start:  3;
         grid-column-end:  5;
 
+
         .background-container{
             display: none;
         }
 
         &:hover{
+        
             .background-container{
                 display: block;
             }
         }
+
     }
 
     .image3{

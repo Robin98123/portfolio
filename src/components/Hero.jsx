@@ -21,13 +21,12 @@ export default function Header (){
                 <div className='tittle-container'>
                     <h2><span>.</span>Hola! soy <b>Robinson Rincon</b></h2>
 
-                    <h1>Diseño UX/UI & <br/>
-                        Desarrollo web Frontend
+                    <h1>Diseñadro Gráfico
                     </h1>
                 </div>  
 
                 <p>
-                Soy diseñador UX/UI  y  desarrollador web frontend enfocado  en el diseño centrado en el usuario, Empleo enfoques creativos para construir experiencias memorables
+                Diseñador visual enfocado en dar vida a conceptos a través del diseño estratégico. Creo sistemas visuales que equilibran la creatividad técnica con el impacto emocional
                 </p>
 
                 <a href="#contact">¡Creemos algo nuevo juntos!<span class="icon-flecha"></span></a>
