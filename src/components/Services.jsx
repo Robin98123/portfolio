@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './styles/services.scss'
 import '../assets/fonts/icomoon-portfolio/style.css'
 
